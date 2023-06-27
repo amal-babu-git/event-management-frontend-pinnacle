@@ -1,0 +1,23 @@
+@keyframes typing {
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+
+    50% {
+        width: 100%;
+        opacity: 1;
+    }
+
+    100% {
+        width: 0;
+        opacity: 0;
+    }
+}
+
+.typing-animation {
+    animation: typing 5s infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    animation-timing-function: linear;
+}
